@@ -1,1 +1,11 @@
-# Lb-fucker-by-FRITE
+    local args = {
+        [1] = "FRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE" ..
+            "\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\n" ..
+            "FRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFR" ..
+            "ITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE" ..
+            "\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\n" ..
+            "FRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\nFRITE\n",
+        [2] = "player"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("nameEvent"):FireServer(unpack(args))
